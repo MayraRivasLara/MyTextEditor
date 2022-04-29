@@ -1,18 +1,20 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "A single-page application hat meets the PWA criteria. feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser.",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"npm run server:dev\" \"npm run client\"  ",
+    "start:prod": "npm run server:prod",
+    "start": "npm run start:prod",
+    "server:dev": "nodemon --ignore ./client/ ./server/server.js",
+    "server:prod": "cd ./server && node server.js",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd .. && cd client && npm i",
+    "client": "cd client && npm run dev"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mayra Rivas Lara",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
