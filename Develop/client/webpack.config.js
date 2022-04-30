@@ -3,6 +3,9 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 
+
+// Configuration of workbox plugins for a service worker and manifest file.
+
 module.exports = () => {
   return {
     mode: "development",
@@ -32,7 +35,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: "Just Another Text Editor",
-        short_name: "JATE",
+        short_name: "J.A.T.E.",
         description: "Text editor application",
         background_color: "#225ca3",
         theme_color: "#225ca3",
