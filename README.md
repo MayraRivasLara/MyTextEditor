@@ -11,18 +11,29 @@ My Text Editor is a single-page application that meets the Progressive Web Appli
 
   - [Description](#description)
   - [Table of Contents (Optional)](#table-of-contents-optional)
-  - [Usage](#usage)
+  - [Images](#images)
   - [License](#license)
   - [Features](#features)
   - [Questions](#questions)
-  - [Tests](#tests)
 
 
-## Usage
 
-add pictures and video if required
+## Images
+
+MyTextEditor's manifest.json file:
+![text_edit1 1](https://user-images.githubusercontent.com/94599271/166212335-cdc7faa9-8d77-45b3-8cd2-14d31e5f83cf.png)
+
+MyTextEditor's registered Servicde Worker:
+![SupportW1](https://user-images.githubusercontent.com/94599271/166212353-41e94f1f-1915-4345-bcbc-e5ec55739fbc.png)
+
+MyTextEditor's indexedDB storage:
+![jate](https://user-images.githubusercontent.com/94599271/166212359-2696f5a2-b5db-431b-8531-4829b22866e2.png)
+
+## Link
+
 
 ## License
+
 
 ![License](https://img.shields.io/badge/License%20-ISC-yellow)
 
@@ -44,7 +55,3 @@ These are the packages and technologies used to create this App:
 If you have any questions, please feel free to contact me <br>
 [email](mayrulara@hotmail.com) <br>
 Thank you.
-
-## Tests
-
-
