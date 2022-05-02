@@ -31,6 +31,7 @@ MyTextEditor's indexedDB storage:
 
 ## Link
 
+https://mytexteditor-app.herokuapp.com/
 
 ## License
 
